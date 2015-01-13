@@ -1,0 +1,182 @@
+﻿html, body {
+
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    min-width: 860px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a
+{
+    text-decoration: none;
+}
+
+.mainnav {
+    background: #ef672f;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0px;
+    min-width: 780px;
+}
+.leftnav
+{
+    height: 66px;
+    float:left;
+}
+.rightnav
+{
+    position: absolute;
+    right: 0;
+}
+.rightnav ul
+{
+    margin: 20px 30px;
+}
+.rightnav ul li
+{
+    display: inline;
+    padding: 21px 22px 28px;
+    color: white;
+    font-size: 16px;
+    height: 20px;
+    -webkit-transition: 0.2s linear;
+}
+.rightnav ul li:hover {
+    color: #ef672f;
+    background-color: white;
+    cursor: pointer;
+}
+.rightnav ul li ul
+{
+    position: absolute;
+    display: none;
+    margin: 26px 80px;
+    background-color: #ef672f;
+}
+.rightnav ul li:hover ul
+{
+    display: block;
+}
+.rightnav ul li ul li
+{
+    display: block;
+    padding: 10px 26px 10px 25px;
+    font-size: 13px;
+}
+.logonav {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color:white;
+    font-size: 38px;
+    padding: 23px 22px;
+    background-color:#c14800;
+    vertical-align: middle;
+}
+.searchButton
+{
+    background: url(http://magento.com/sites/all/themes/mag_redesign/images/icons/ico-search-copper.png) left top no-repeat;
+    width: 80px;
+    height: 66px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+.searchButton:hover
+{
+    background-position-y: -67px;
+}
+.pitch
+{
+    height: 400px;
+    width: 100%;
+    background-image: url(http://adaptivemarketingsolutions.com/wp-content/uploads/2013/10/busy-restaurant-marketing.jpg);
+    /*background-position: center top;*/
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+}
+.tagline
+{
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+    top: 90px;
+    position: relative;
+    line-height: 50px;
+    left: 10%;
+    width: 90%;
+}
+.pitchButton
+{
+    color: #fff;
+    background: #ef672f;
+    box-shadow: inset 0 0 0 0 #c14800;
+    transition-duration: 0.7s;
+    -webkit-transition: 0.7s;
+    padding: 25px 30px;
+    position: absolute;
+    margin: 150px 0 0 10%;
+    font-size: 22px;
+}
+.pitchButton:hover {
+    box-shadow: inset 0 100px 0 0 #c14800;
+    transition-duration: 0.4s;
+    -webkit-transition: 0.4s;
+    cursor: pointer;
+
+}
+.content
+{
+    margin: 30px 20px;
+}
+.review
+{
+    padding: 0 10px;
+}
+.reviewLogo
+{
+    float: left;
+    padding: 40px 15px 0 0;
+}
+.reviewTitle
+{
+    float: left;
+}
+.reviewDesc
+{
+    float: left;
+    margin-left: 10px;
+    width: 67%;
+}
+.reviewDesc p
+{
+    margin:9px 0;
+}
+.reviewDesc div
+{
+    float: left;
+    margin-left:10px;
+    width: 40%;
+}
+.horizontal
+{
+    width: 100%;
+    border-bottom: solid 1px #cac3b4;
+    float: left;
+}
+
+
+
